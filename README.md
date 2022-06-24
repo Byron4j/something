@@ -7,4 +7,9 @@
 - ES
   - [硬件](https://www.elastic.co/guide/cn/elasticsearch/guide/current/hardware.html)
   - [堆大小-交换](https://www.elastic.co/guide/cn/elasticsearch/guide/current/heap-sizing.html#heap-sizing)
+
+
+- blog
+  - [emacsist](https://emacsist.github.io/)
+    - [Java中TLS及HTTPS学习](https://emacsist.github.io/2020/06/10/java%E4%B8%ADtls%E5%8F%8Ahttps%E5%AD%A6%E4%B9%A0/)
   
