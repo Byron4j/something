@@ -17,6 +17,9 @@
 - github
   - [xiaojiaqi](https://github.com/xiaojiaqi)
 
+## 面典收集
+
+- [JavaGuide](https://gitee.com/SnailClimb/JavaGuide)
 
 ## 案例
 ### 高并发
