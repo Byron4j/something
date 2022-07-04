@@ -10,6 +10,8 @@
   - [硬件](https://www.elastic.co/guide/cn/elasticsearch/guide/current/hardware.html)
   - [堆大小-交换](https://www.elastic.co/guide/cn/elasticsearch/guide/current/heap-sizing.html#heap-sizing)
 
+- Redis
+  - [搭建Redis集群和MySQL主从同步](https://mp.weixin.qq.com/s?__biz=MzI4Njc5NjM1NQ==&mid=2247490339&idx=1&sn=355246186ce9cad69a8a4fe578141ffb&chksm=ebd6240fdca1ad19a363b3c0a917352f78ca4cdb20c79f639298ef731295bde3753fd55cf539&scene=21#wechat_redirect)
 
 - blog
   - [emacsist](https://emacsist.github.io/)
