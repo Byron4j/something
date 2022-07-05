@@ -5,6 +5,8 @@
   - java -XX:+PrintFlagsFinal ： 查看JVM所有配置参数
   - CompressedOops: 普通对象指针压缩，可以让跑在64位平台下的JVM，不需要因为更宽的寻址，而付出Heap容量损失的代价。缺陷：因为要对指令做压缩和解压缩，对 JVM 有额外的开销。[JVM之压缩指针——Compressed oops](https://blog.csdn.net/liuxiao723846/article/details/91981757)
   
+- JVM
+  - [Java内存分配之堆、栈和常量池](https://www.cnblogs.com/SaraMoring/p/5687466.html)
   
 - ES
   - [硬件](https://www.elastic.co/guide/cn/elasticsearch/guide/current/hardware.html)
