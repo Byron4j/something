@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.byron4j.bootaction.config.CusStarterAutoConfiguration
