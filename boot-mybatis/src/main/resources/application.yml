@@ -1,0 +1,12 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    password: 
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world?useUnicode=true&serverTimezone=GMT&characterEncoding=UTF-8&useSSL=false
+    initialization-mode: always
+    schema:
+      - classpath:db/schema.sql
