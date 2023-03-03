@@ -1,15 +1,18 @@
 # something
 
->**建议复习重点放在**：
+>**建议温顾的时间线**：
+>
 >- JVM（3天）
->    - JMM
->    - GC
->    - 性能调优、线上问题排查
+>   - JMM
+>   - GC
+>   - 性能调优、线上问题排查
 >- Redis（3天）
 >- MQ(RabbitMQ-概念、场景解决方案、Kafka、RocketMQ-源码、事务性消息)（5天）
 >- MySQL（2天）
 >- 项目经验、项目架构（2天）
 >- 框架：SpringBoot（2天）、SpringCloud（2天）、ORM（mybatis、mybatis-plus）（2天）
+>
+>[八股文](baguwen.md)
 
 ## 知识点
 - JVM：
