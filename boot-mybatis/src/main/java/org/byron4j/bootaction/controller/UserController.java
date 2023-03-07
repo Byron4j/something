@@ -1,24 +1,41 @@
 package org.byron4j.bootaction.controller;
 
-import org.byron4j.bootaction.mapper.UserMapper;
 import org.byron4j.bootaction.model.User;
+import org.byron4j.bootaction.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
     @Autowired
-    UserMapper userMapper;
+    UserService userService;
 
     @PostMapping("/queryById/{id}")
     User queryById(@PathVariable int id){
-        return userMapper.queryById(id);
+        return userService.queryById(id);
     }
 
     @PostMapping("/save")
-    boolean queryById(@RequestBody User user){
-        return userMapper.save(user) > 0;
+    boolean save(@RequestBody User user){
+        return userService.save(user);
+    }
+
+    @DeleteMapping("/deleteById/{id}")
+    boolean deleteById(@PathVariable int id){
+        return userService.deleteById(id);
+    }
+
+    @DeleteMapping("/deleteAll")
+    boolean deleteAll(){
+        return userService.deleteAll();
+    }
+
+    @GetMapping("/findAll")
+    List<User> findAll(){
+        return userService.findAll();
     }
 }
