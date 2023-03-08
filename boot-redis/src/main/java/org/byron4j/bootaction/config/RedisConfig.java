@@ -88,6 +88,10 @@ public class RedisConfig {
         return cacheManager;
     }
 
-
+    @Bean
+    public RedisSerializer<Object> springSessionDefaultRedisSerializer(){
+        // spring session redis序列化配置器
+        return getJackson2JsonRedisSerializer();
+    }
 
 }
