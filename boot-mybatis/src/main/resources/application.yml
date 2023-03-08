@@ -12,3 +12,7 @@ spring:
     initialization-mode: always
     schema:
       - classpath:db/schema.sql
+  cache:
+    type: CAFFEINE
+    caffeine:
+      spec: maximumSize=10,expireAfterAccess=5s
