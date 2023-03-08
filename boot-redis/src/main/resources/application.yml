@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    password: 111111
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world?useUnicode=true&serverTimezone=GMT&characterEncoding=UTF-8&useSSL=false
+    initialization-mode: always
+    schema:
+      - classpath:db/schema.sql
+  cache:
+    type: Redis
+  redis:
+    host: localhost
+    port: 32769
+    password: redispw
+    database: 0
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+    timeout: 3000
+
